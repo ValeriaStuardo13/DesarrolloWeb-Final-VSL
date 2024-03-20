@@ -1,30 +1,37 @@
 /* GRILLA*/
 
 header{
-    background-color: black;
+    background-color: #424141;
     display: flex;
-    list-style-type: none;
-    text-decoration: none;
     justify-content: space-around;
+    align-self: center;
+    max-width: 100%;
 }
 
-header.navegacionPrincipal{ 
- 
-   
-    align-self: center;
-    font-family: Arial, Helvetica, sans-serif;
+.navegacionPrincipal ul{ 
+    display: flex;
+    justify-content: space-around;
     list-style-type: none;
-    text-decoration: none;
-    color: white;
-    font-size: 1/2rem;
-    justify-self: flex-end;
     
 }
-header.redes img{
+
+.navegacionPrincipal li{ 
+    margin: 2vw;
+}
+
+
+.navegacionPrincipal a{ 
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-decoration: none;
+    font-size: 1/2rem;
+}
+.instagram{
     display:flex;
+    justify-self: center;
     align-self: center;
-    width: 30px;
-    height: 30px;
+    width: 8vw;
+    height: 8vw;
 }
 
 
@@ -36,8 +43,10 @@ display: grid;
 row-gap: 10px;
 column-gap: 10px;
 grid-template-columns: repeat(4, 1fr);
-grid-template-rows: 2fr 4fr 2fr 2fr 1/2fr;
+grid-template-rows: 3fr 2/2fr 2fr 2fr 1/2fr;
 background-color: #fdc1c5;
+background: linear-gradient(180deg, rgba(255,165,186,1) 0%, rgba(255,255,255,1) 100%);
+justify-content: center;
 
 }
 
@@ -48,6 +57,10 @@ background-color: #fdc1c5;
     justify-self: center;
     align-self: center;
 }
+.logo img{
+    width: 100%;
+    height: auto;
+}
 
 .tituloIndex{
     display:flex;
@@ -55,17 +68,26 @@ background-color: #fdc1c5;
     grid-row: 1/2;
     justify-self: center;
     align-self: center;
-    background-color: pink;
 }
 
-.fondo{
+.tituloIndex h1{
+    width: 100%;
+    height: auto;
+    font-size: 8vw;
+}
+
+
+.fondo {
     display:flex;
     grid-column: 1/5;
     grid-row: 2/3;
     justify-self: center;
     align-self: center;
-    width: auto;
+}
 
+.fondo img{
+    width: 100%;
+    height: auto;
 }
 
 .parrafo-1{
@@ -78,6 +100,11 @@ background-color: #fdc1c5;
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.parrafo-1 p{
+    width: 100%;
+    height: auto;
+}
+
 .parrafo-2{
     display:flex;
     grid-column: 1/5;
@@ -88,15 +115,27 @@ background-color: #fdc1c5;
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.parrafo-2 p{
+    width: 100%;
+    height: auto;
+}
+
 footer{
-    display:flex;
+    
     grid-column: 1/5;
     grid-row: 5/6;
-    justify-self: center;
-    align-self: center;
-    color: grey; 
+    background-color: grey; 
+    
+}
+
+footer h2{
+    display:flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
     font-size: smaller;
     font-family: Arial, Helvetica, sans-serif;
+    color:aliceblue;
 }
 
 /*Título Index*/
