@@ -1,6 +1,6 @@
 /* GRILLA*/
 
-header{
+/*header{
     background-color: #424141;
     display: flex;
     justify-content: space-around;
@@ -35,117 +35,117 @@ header{
 }
 
 
-
+*/
 
 
 .grid-container-index{
-display: grid;
-row-gap: 10px;
-column-gap: 10px;
-grid-template-columns: repeat(4, 1fr);
-grid-template-rows: 3fr 2/2fr 2fr 2fr 1/2fr;
-background-color: #fdc1c5;
-background: linear-gradient(180deg, rgba(255,165,186,1) 0%, rgba(255,255,255,1) 100%);
-justify-content: center;
-
-}
-
-.logo{
-    display:flex;
-    grid-column: 1/2;
-    grid-row: 1/2;
-    justify-self: center;
-    align-self: center;
-}
-.logo img{
-    width: 100%;
-    height: auto;
-}
-
-.tituloIndex{
-    display:flex;
-    grid-column: 2/4;
-    grid-row: 1/2;
-    justify-self: center;
-    align-self: center;
-}
-
-.tituloIndex h1{
-    width: 100%;
-    height: auto;
-    font-size: 8vw;
-}
-
-
-.fondo {
-    display:flex;
-    grid-column: 1/5;
-    grid-row: 2/3;
-    justify-self: center;
-    align-self: center;
-}
-
-.fondo img{
-    width: 100%;
-    height: auto;
-}
-
-.parrafo-1{
-    display:flex;
-    grid-column: 1/5;
-    grid-row: 3/4;
-    justify-self: center;
-    align-self: center;
-    color: black;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.parrafo-1 p{
-    width: 100%;
-    height: auto;
-}
-
-.parrafo-2{
-    display:flex;
-    grid-column: 1/5;
-    grid-row: 4/5;
-    justify-self: center;
-    align-self: center;
-    color: black;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.parrafo-2 p{
-    width: 100%;
-    height: auto;
-}
-
-footer{
-    
-    grid-column: 1/5;
-    grid-row: 5/6;
-    background-color: grey; 
-    
-}
-
-footer h2{
-    display:flex;
-    width: 100%;
-    height: auto;
+    display: grid;
+    row-gap: 10px;
+    column-gap: 10px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 3fr 2/2fr 2fr 2fr 1/2fr;
+    background-color: #fdc1c5;
+    background: linear-gradient(180deg, #eacfd8 0%, rgba(255,255,255,1) 100%);
     justify-content: center;
-    font-size: smaller;
-    font-family: Arial, Helvetica, sans-serif;
-    color:aliceblue;
-}
-
-/*Título Index*/
-h1 span.spanTituloIndex {color: white}
-
-
-
-
-/*Titulos Horarios*/
-.tituloIniciante{font-weight: bold;}
-.tituloIntermedio{font-weight: bold;}
-.tituloPuntas{font-weight: bold;}
-.tituloAdulto{font-weight: bold;}
+    
+    }
+    
+    .logo{
+        display:flex;
+        grid-column: 1/2;
+        grid-row: 1/2;
+        justify-self: center;
+        align-self: center;
+    }
+    .logo img{
+        width: 100%;
+        height: auto;
+    }
+    
+    .tituloIndex{
+        display:flex;
+        grid-column: 2/4;
+        grid-row: 1/2;
+        justify-self: center;
+        align-self: center;
+    }
+    
+    .tituloIndex h1{
+        width: 100%;
+        height: auto;
+        font-size: 8vw;
+    }
+    
+    
+    .fondo {
+        display:flex;
+        grid-column: 1/5;
+        grid-row: 2/3;
+        justify-self: center;
+        align-self: center;
+    }
+    
+    .fondo img{
+        width: 100%;
+        height: auto;
+    }
+    
+    .parrafo-1{
+        display:flex;
+        grid-column: 1/5;
+        grid-row: 3/4;
+        justify-self: center;
+        align-self: center;
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .parrafo-1 p{
+        width: 100%;
+        height: auto;
+    }
+    
+    .parrafo-2{
+        display:flex;
+        grid-column: 1/5;
+        grid-row: 4/5;
+        justify-self: center;
+        align-self: center;
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .parrafo-2 p{
+        width: 100%;
+        height: auto;
+    }
+    
+    footer{
+        
+        grid-column: 1/5;
+        grid-row: 5/6;
+        background-color: grey; 
+        
+    }
+    
+    footer h2{
+        display:flex;
+        width: 100%;
+        height: auto;
+        justify-content: center;
+        font-size: smaller;
+        font-family: Arial, Helvetica, sans-serif;
+        color:aliceblue;
+    }
+    
+    /*Título Index*/
+    h1 span.spanTituloIndex {color: white}
+    
+    
+    
+    
+    /*Titulos Horarios*/
+    .tituloIniciante{font-weight: bold;}
+    .tituloIntermedio{font-weight: bold;}
+    .tituloPuntas{font-weight: bold;}
+    .tituloAdulto{font-weight: bold;}

@@ -3,76 +3,120 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BALLET STUDIO - ACADEMIA</title>
+
+    <!-- LINK ANIMATE.CSS-->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+
     <!--CSS -->
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
 
-    <title>BALLET STUDIO</title>
+    <!--BOOTSTRAP-->
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!--META TAGS-->
+    <meta name="keywords" content="ballet, academia, escuela, clases, ballet studio, escuela de ballet, academia de ballet, clases de ballet">
+    <!--META DESC-->
+    <meta name="description" content="Descubre la excelencia en la danza en Ballet Studio. Ofrecemos clases de ballet para todas las edades y niveles de habilidad. Explora nuestra variedad de clases y tarifas flexibles. ¡Inscríbete hoy y comienza tu viaje en el arte del ballet!">
+    <!--META PHONE-->
+    <meta name="telephone" content="+56985565352">
+    <!--META WHATSAPP-->
+    <meta name="whatsapp" content="+56985565352">
+    <!--META AUTHOR-->
+    <meta name="author" content="Valeria Stuardo">
+    <!--META GEO-->
+    <meta name="geo.placename" content="Santiago, Chile">
+    <!--FAV ICON-->
+    <link rel="shortcut icon" href="img/logoballet.png" type="image/x-icon">
+    
 </head>
+
 <body> <!--Cuerpo de la página web-->
-
-    <header class="header"> <!-- Sección 1 Navegador-->
-        <nav class="navegacionPrincipal">
-            <ul>
-              <li><a href="index.html">Inicio</a></li>
-              <li><a href="pages/nosotros.html">Nosotros</a></li>
-              <li><a href="pages/clasesyhorarios.html">Clases y Horarios</a></li>
-              <li><a href="pages/inscripciones.html">Inscripciones</a></li>
-              <li><a href="pages/contactanos.html">Contáctanos</a></li>
-            </ul>
-        </nav>
-        <div class="redes">
-            <a href="https://www.instagram.com" target="_blank">
-                <img src="/img/logoinsta.jpg" alt="Logo de Instagram">
-            </a>
-        </div>
-
-        <h1 classs="tituloHorarios">Horarios</h1> 
-    </header> 
-
+    
  
-
-    <main class="main"> 
+    <!--HEADER-->
+    <header> <!-- Sección 1 Navegador-->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="nosotros.html">Nosotros</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="clasesyhorarios.html">Clases y Horarios</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="inscripciones.html">Inscripciones</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contactanos.html">Contáctanos</a>
+                  </li>
+                </ul>
+                <span class="navbar-text">
+                    <a class="navbar-brand" href="https://www.instagram.com">
+                        <img src="../img/logoinsta.png" alt="Logo de Instagramt" width="40" height="40" class="d-inline-block align-text-top">
+                      </a>
+                </span>
+              </div>
+            </div>
+          </nav>
+        
+       
+    </header> 
+    <!--GRILLA-->
+    <main class="grid-container-horarios"> 
 
         
         <div class="calendario"> 
-            <img src="/img/calendario.jpg" alt="Calendario semanal con horario de clases">
+            <img src="../img/calendario.jpg" alt="Calendario semanal con horario de clases">
         </div>
 
         <section> <!--Seccion 1-->
 
             <div class="imgIniciante"> 
-                <img src="/img/iniciante.jpg" alt="Niñas en clase de ballet">
+                <img src="../img/iniciante.jpg" alt="Niñas en clase de ballet">
             </div>
             <h2 class="tituloIniciante">Ballet Iniciante</h2>
             <div class="parrafoH-1">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt nostrum ab ad, quia fuga tempore, similique eos natus harum eligendi facere blanditiis iste quisquam alias non totam quasi. Cum, tenetur.</p>
+                <p>Nuestra clase de ballet iniciante está diseñada específicamente para niñas de 8 a 12 años que desean dar sus primeros pasos en el mundo del ballet con una base sólida y técnica. Dirigida por nuestros instructores altamente calificados y experimentados, esta clase proporciona una introducción estructurada y cuidadosa a los fundamentos del ballet clásico. Las estudiantes aprenderán las posiciones básicas, movimientos de brazos y pasos esenciales, mientras desarrollan habilidades físicas como fuerza, flexibilidad y coordinación. En un ambiente profesional pero alentador, nuestro objetivo es nutrir el amor por la danza y fomentar el crecimiento personal en cada bailarina.</p>  
             </div>
 
 
             <div class="imgIntermedio"> 
-                <img src="/img/intermedio.jpg" alt="Piernas de bailarinas de ballet">
+                <img src="../img/intermedio.jpg" alt="Piernas de bailarinas de ballet">
             </div>
             <h2 class="tituloIntermedio">Ballet Intermedio</h2>
             <div class="parrafoH-2">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla doloribus unde deserunt aliquid corrupti cupiditate architecto eum illum dicta quis voluptates est dolore, quam dolores repellendus magnam </p>
+                <p>Nuestra clase de ballet intermedio está diseñada para proporcionar una experiencia enriquecedora y desafiante a niñas de 13 a 17 años que ya tienen un nivel de habilidad intermedio en ballet. Dirigida por nuestros experimentados instructores, esta clase ofrece un enfoque más profundo en la técnica del ballet clásico, la musicalidad y la expresión artística. Los estudiantes trabajarán para perfeccionar sus habilidades técnicas mientras exploran nuevas formas de expresión a través del movimiento. En un ambiente profesional y de apoyo, nuestro objetivo es inspirar el crecimiento continuo y la confianza en cada bailarina.</p>
             </div>
 
 
             <div class="imgPuntas"> 
-                <img src="/img/puntas.jpg" alt="Puntas de ballet">
+                <img src="../img/puntas.jpg" alt="Puntas de ballet">
             </div>
             <h2 class="tituloPuntas">Puntas</h2>
             <div class="parrafoH-3">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla doloribus unde deserunt aliquid corrupti cupiditate architecto eum illum dicta quis voluptates est dolore, quam dolores repellendus magnam </p>
+                <p>Nuestra clase de ballet en puntas ofrece una oportunidad excepcional para las jóvenes bailarinas de 13 a 17 años que han alcanzado un nivel avanzado en ballet y están listas para explorar la técnica de las puntas. Esta clase está sujeta a una evaluación previa para garantizar que las estudiantes cuenten con la fuerza, técnica y control necesarios para trabajar de manera segura en puntas. Dirigida por nuestros experimentados instructores, esta clase se centra en el desarrollo de la fuerza del pie, la estabilidad y la técnica específica requerida para el trabajo en puntas. A través de ejercicios cuidadosamente estructurados y una atención personalizada, las bailarinas perfeccionarán su habilidad en este arte refinado y exigente. En un ambiente profesional y de apoyo, nuestro objetivo es guiar a cada estudiante en su viaje hacia la excelencia en la danza en puntas.</p>
             </div>
 
 
             <div class="imgAdulto"> 
-                <img src="/img/adulto.jpg" alt="Adultos en poses de ballet">
+                <img src="../img/adulto.jpg" alt="Adultos en poses de ballet">
             </div>
             <h2 class="tituloAdulto">Ballet Juvenil/Adulto</h2>            
             <div class="parrafoH-3">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla doloribus unde deserunt aliquid corrupti cupiditate architecto eum illum dicta quis voluptates est dolore, quam dolores repellendus magnam </p>
+                <p>Nuestra clase de ballet para adultos ofrece una emocionante oportunidad para mujeres mayores de 18 años que desean explorar el arte del ballet en un ambiente acogedor y de apoyo. Diseñada para estudiantes de todos los niveles, desde principiantes hasta aquellos con experiencia previa en ballet, esta clase proporciona una experiencia enriquecedora y estimulante. Dirigida por nuestros instructores altamente calificados y experimentados, esta clase se enfoca en desarrollar fuerza, flexibilidad, postura y técnica, adaptándose a las necesidades individuales de cada estudiante. Desde la elegancia de los movimientos hasta la belleza de la expresión artística, nuestra clase de ballet para adultos ofrece una oportunidad única para explorar el arte del ballet y mejorar la salud física y mental.</p>
             </div>
         </section>
         
@@ -80,9 +124,16 @@
         
     </main>
 
+
+    <!-- FOOTER-->
     <footer> 
         <h2>copyright &copy; VSL 2024</h2>
     </footer>
 
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
 </body>
-</html>
+
+</html> 
